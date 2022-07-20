@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    background-color: #1E1E1E;
+}
+.banner-text, .banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    display: block;
+}
