@@ -1,11 +1,88 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
 header{
     display: flex;
     background-color: #1E1E1E;
+    border-radius: 30px;
 }
 .banner-text, .banner-img{
     width: 50%;
 }
+.banner-text{
+    margin-left: 111px;
+    margin-bottom: 106px;
+}
+.banner-text h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.banner-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#ffffff;
+    margin-bottom: 70px;
+}
+.banner-text a{
+    padding: 16px 25px;
+    background-color: #DD0000;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.banner-img{
+    position: relative;
+}
 .banner-img img{
     width: 100%;
-    display: block;
+    position: absolute;
+    bottom: 0;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 312px 75%;
+    margin: 50px 0;
+}
+.selector-box{
+    height: 312px;
+    width: 312px;
+    background-color:#161616;
+    border-radius: 10px;
+}
+.box-items a{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 17px 39px;
+    color: #161616;
+    background-color: #FFFFFF;
+    margin: 30px;
+    border-radius: 10px;
+}
+.box-items a:hover{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+.blog{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content:space-around;
+    align-content: space-between;
+}
+.blog-items{
+}
+
+
+
+
+
